@@ -21,6 +21,7 @@ body {
     align-items: center;
     font-family: 'Kumbh Sans', sans;
     font-size: 1.125rem;
+    background: url('./images/bg-pattern-top.svg') -40rem -100vw no-repeat, url('./images/bg-pattern-bottom.svg') 20vh 90vw no-repeat;
     background-color: var(--clr-dark-cyan);
 }
 
@@ -41,6 +42,7 @@ hr {
 .container {
     width: 85vw;
     max-width: 30rem;
+    min-width: 25rem;
 }
 
 .card {
